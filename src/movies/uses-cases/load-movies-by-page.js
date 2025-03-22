@@ -1,6 +1,5 @@
 import { Movie } from "../models/movie";
 
-
 /**
  * 
  * @param {Number} page 
@@ -13,12 +12,8 @@ export const loadMoviesByPage = async( page=1 ) => {
     const response = await fetch(url);
     const data = await response.json();
 
-    const movies = data.data;
+    // console.log(data);
 
-    // console.log(movies);
-    // console.log("Tipo de data:", typeof data, Array.isArray(movies));
-
-
-    return movies;
+    return data;
 
 }

@@ -20,7 +20,6 @@ const loadNextPage = async() => {
     state.currentPage += 1;
     state.pages = pages;
     
-    
     // console.log(state);
     
 }
@@ -36,6 +35,27 @@ const loadPreviousPage = async() =>{
     state.pages = movies.pages;
 }
 
+const onMovieChanged = ( updatedMovie ) => {
+    
+    let wasFound = false;
+
+    state.movies = state.movies.map( movie => {
+
+        if(movie.id === updatedMovie.id){
+            wasFound = true;
+
+            return updatedMovie;
+        }
+
+        return movie;
+    });
+
+    if(state.movies.length < 10 && !wasFound){
+        state.movies.push(updatedMovie);
+    }
+
+}
+
 const reloadPage = async() =>{
     throw new Error('no implementado');
 }
@@ -43,6 +63,7 @@ const reloadPage = async() =>{
 export default {
     loadNextPage,
     loadPreviousPage,
+    onMovieChanged,
     reloadPage,
 
     /**

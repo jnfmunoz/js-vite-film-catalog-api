@@ -1,4 +1,5 @@
 import moviesStore from '../../store/movies-store.js';
+import { showModal } from '../render-modal/render-modal.js';
 import './render-table.css';
 
 let table;
@@ -22,6 +23,28 @@ const createTable = () => {
     return table;
 }
 
+const tableSelectListener = (e) => {
+    const element = e.target.closest('.select-movie');
+
+    if(!element) return;
+
+    const id = element.getAttribute('data-id');
+    showModal(id);
+
+}
+
+const tableDeleteListener = (e) => {
+    const element = e.target.closest('.delete-user');
+
+    if(!element) return;
+
+    const id = element.getAttribute('data-id');
+
+    
+
+}
+
+
 
 /**
  * 
@@ -39,7 +62,7 @@ export const renderTable = (element) => {
 
         // TODO: listeners to table
         // table.addEventListener('click', e => tableSelectListener(e));
-        // table.addEventListener('click', tableSelectListener );
+        table.addEventListener('click', tableSelectListener );
         // table.addEventListener('click', tableDeleteListener );
 
     }

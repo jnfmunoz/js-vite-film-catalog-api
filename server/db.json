@@ -295,12 +295,6 @@
       "director": "Wes Craven"
     },
     {
-      "id": "50",
-      "title": "Scream 2",
-      "year": 1997,
-      "director": "Wes Craven"
-    },
-    {
       "id": "51",
       "title": "Scream",
       "year": 1996,
@@ -355,58 +349,10 @@
       "director": "Wes Craven"
     },
     {
-      "id": "60",
-      "title": "A Nightmare on Elm Street",
-      "year": 1984,
-      "director": "Wes Craven"
-    },
-    {
-      "id": "61",
-      "title": "Invitation to Hell",
-      "year": 1984,
-      "director": "Wes Craven"
-    },
-    {
       "id": "62",
       "title": "Swamp Thing",
       "year": 1982,
       "director": "Wes Craven"
-    },
-    {
-      "id": "63",
-      "title": "Deadly Blessing",
-      "year": 1981,
-      "director": "Wes Craven"
-    },
-    {
-      "id": "64",
-      "title": "Summer of Fear",
-      "year": 1978,
-      "director": "Wes Craven"
-    },
-    {
-      "id": "65",
-      "title": "The Hills Have Eyes",
-      "year": 1977,
-      "director": "Wes Craven"
-    },
-    {
-      "id": "66",
-      "title": "The Last House on the Left",
-      "year": 1972,
-      "director": "Wes Craven"
-    },
-    {
-      "id": "2398",
-      "title": "",
-      "year": 0,
-      "director": ""
-    },
-    {
-      "id": "bb66",
-      "title": "Fire in the sky",
-      "year": 1999,
-      "director": "asd"
     }
   ]
 }

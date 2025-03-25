@@ -1,5 +1,6 @@
 import moviesStore from '../../store/movies-store.js';
 import { showModal } from '../render-modal/render-modal.js';
+import { deleteMovieById } from '../../uses-cases/delete-movie-by-id.js';
 import './render-table.css';
 
 let table;
@@ -33,17 +34,25 @@ const tableSelectListener = (e) => {
 
 }
 
-const tableDeleteListener = (e) => {
-    const element = e.target.closest('.delete-user');
-
-    if(!element) return;
-
-    const id = element.getAttribute('data-id');
+const tableDeleteListener = async (e) => {
 
     
+    const element = e.target.closest('.delete-movie');
+
+    if(!element) return;
+    
+    const id = element.getAttribute('data-id');
+
+    try{
+        await deleteMovieById(id);
+        await moviesStore.reloadPage();
+        document.querySelector('#current-page').innerHTML = moviesStore.getCurrentPage();
+        renderTable();
+    } catch(error) {
+        alert(error);
+    }
 
 }
-
 
 
 /**
@@ -63,7 +72,7 @@ export const renderTable = (element) => {
         // TODO: listeners to table
         // table.addEventListener('click', e => tableSelectListener(e));
         table.addEventListener('click', tableSelectListener );
-        // table.addEventListener('click', tableDeleteListener );
+        table.addEventListener('click', tableDeleteListener );
 
     }
 

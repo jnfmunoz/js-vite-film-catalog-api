@@ -4,7 +4,7 @@ export const saveMovie = async ( movieLike ) => {
 
     const movie = new Movie(movieLike);
 
-    if( !movie.title || !movie.director || year === 0){
+    if( !movie.title || !movie.director || movie.year === 0){
         throw 'Title, director and year are required!';
     }
 

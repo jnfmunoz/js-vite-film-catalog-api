@@ -1,5 +1,4 @@
 import modalHtml from './render-modal.html?raw';
-
 import { Movie } from '../../models/movie';
 import { getMovieById } from '../../uses-cases/get-movie-by-id';
 import './render-modal.css'

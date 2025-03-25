@@ -57,7 +57,20 @@ const onMovieChanged = ( updatedMovie ) => {
 }
 
 const reloadPage = async() =>{
-    throw new Error('no implementado');
+
+    const movies = await loadMoviesByPage(state.currentPage);
+    // if(movies.length === 0){
+    //     await loadPreviousPage();
+    //     return;
+    // };
+
+    
+    if (!Array.isArray(movies)) {
+        console.error('La respuesta no es un array:', movies);
+        return;
+    }
+
+    state.movies = movies;
 }
 
 export default {

@@ -1,6 +1,7 @@
 import moviesStore from '../../store/movies-store.js';
 import { showModal } from '../render-modal/render-modal.js';
 import { deleteMovieById } from '../../uses-cases/delete-movie-by-id.js';
+import Swal from 'sweetalert2';
 import './render-table.css';
 
 let table;
@@ -35,6 +36,7 @@ const tableSelectListener = (e) => {
     if(!element) return;
 
     const id = element.getAttribute('data-id');
+
     showModal(id);
 
 }
@@ -47,11 +49,23 @@ const tableSelectListener = (e) => {
 const tableDeleteListener = async (e) => {
  
     const element = e.target.closest('.delete-movie');
-
     if(!element) return;
     
     const id = element.getAttribute('data-id');
-    
+    const title = element.getAttribute('data-title');
+
+    const result = await Swal.fire({
+        title: `Are you sure you want to delete ${title}?`,
+        text: 'You will not be able to reverse this action',
+        icon: 'warning',
+        showCancelButton: true, 
+        confirmButtonColor: '#d33',
+        cancelButtonColor: '3085d6',
+        confirmButtonText: 'Confirm',
+        cancelButtonText: 'Cancel',
+    });
+
+    if(!result.isConfirmed) return;
 
     try{
         await deleteMovieById(id);
@@ -73,7 +87,6 @@ export const renderTable = (element) => {
     
     const movies = moviesStore.getMovies();
     // console.log(movies);
-
 
     if(!table){
         table = createTable();
@@ -98,7 +111,7 @@ export const renderTable = (element) => {
                 <td>
                     <a href="#/" class="select-movie" data-id="${ movie.id }">Select</a>
                     |
-                    <a href="#/" class="delete-movie" data-id="${ movie.id }">Delete</a>
+                    <a href="#/" class="delete-movie" data-id="${ movie.id }" data-title="${movie.title}">Delete</a>
                 </td>
             </tr>
         `;

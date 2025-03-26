@@ -56,6 +56,7 @@ export const renderModal = ( element, saveUserCallback ) => {
     modal.innerHTML = modalHtml;
     modal.className = 'modal-container hide-modal';
     form = modal.querySelector('form');
+    
 
     modal.addEventListener( 'click', (e) =>{
         if(e.target.className === 'modal-container'){

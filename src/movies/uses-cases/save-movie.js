@@ -1,5 +1,5 @@
 import { Movie } from "../models/movie";
-
+import Swal from "sweetalert2";
 
 
 /**
@@ -12,15 +12,39 @@ export const saveMovie = async ( movieLike ) => {
     const movie = new Movie(movieLike);
 
     if( !movie.title || !movie.director || movie.year === 0){
-        throw 'Title, director and year are required!';
+        // throw 'Title, director and year are required!';
+        await Swal.fire({
+            icon: 'error',
+            title: 'Error',
+            text: 'Title, director and year are required!',            
+        });
+        return;
     }
 
-    if (movie.id){
-        return await updateMovie(movie);
+    const confirmation = await Swal.fire({
+        title: 'Are you sure?',
+        text: movie.id ? 'Do you want to update this movie?' : 'Do you want to add this movie?',
+        icon:'warning',
+        showCancelButton: true,
+        confirmButtonText: 'Savee',
+        cancelButtonText: 'Cancel',
+    });
+
+    if (confirmation.isConfirmed) {
+        try {
+            if (movie.id) {
+                Swal.fire('Updated!', 'Your movie has been updated.', 'success');
+                return await updateMovie(movie);
+            } else {
+                Swal.fire('Added!', 'Your movie has been added.', 'success');
+                return await createMovie(movie);
+            }
+        } catch (error) {            
+            Swal.fire('Error!', 'Something went wrong.', 'error');
+        }
     } else {
-        return await createMovie(movie);
+        Swal.fire('Cancelled', 'Your movie was not saved', 'info');
     }
-
 }
 
 

@@ -1,5 +1,12 @@
 import { Movie } from "../models/movie";
 
+
+
+/**
+ * 
+ * @param {Like<Movie>} movieLike 
+ * @returns 
+ */
 export const saveMovie = async ( movieLike ) => {
 
     const movie = new Movie(movieLike);
@@ -16,6 +23,11 @@ export const saveMovie = async ( movieLike ) => {
 
 }
 
+
+/**
+ * 
+ * @param {Like<Movie>} movie 
+ */
 const createMovie = async ( movie ) => {
     
     const url = `${ import.meta.env.VITE_BASE_URL }/movies`;
@@ -33,6 +45,11 @@ const createMovie = async ( movie ) => {
 
 }
 
+
+/**
+ * 
+ * @param {Like<Movie>} movie 
+ */
 const updateMovie = async ( movie ) => {
 
     const url = `${ import.meta.env.VITE_BASE_URL }/movies/${ movie.id }`;

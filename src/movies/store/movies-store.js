@@ -35,6 +35,10 @@ const loadPreviousPage = async() =>{
     state.pages = movies.pages;
 }
 
+/**
+ * 
+ * @param {Movie} updatedMovie 
+ */
 const onMovieChanged = ( updatedMovie ) => {
     
     let wasFound = false;
@@ -59,18 +63,15 @@ const onMovieChanged = ( updatedMovie ) => {
 const reloadPage = async() =>{
 
     const movies = await loadMoviesByPage(state.currentPage);
-    // if(movies.length === 0){
-    //     await loadPreviousPage();
-    //     return;
-    // };
 
-    
-    if (!Array.isArray(movies)) {
-        console.error('La respuesta no es un array:', movies);
+    if (movies.data.length === 0) {
+        await loadPreviousPage();
         return;
-    }
+    };
 
-    state.movies = movies;
+    state.movies = movies.data;
+    // console.log(state);
+
 }
 
 export default {

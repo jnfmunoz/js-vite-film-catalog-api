@@ -11,9 +11,7 @@ export const loadMoviesByPage = async( page=1 ) => {
 
     const response = await fetch(url);
     const data = await response.json();
-
     // console.log(data);
 
     return data;
-
 }

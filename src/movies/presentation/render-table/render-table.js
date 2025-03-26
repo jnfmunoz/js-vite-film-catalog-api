@@ -24,6 +24,11 @@ const createTable = () => {
     return table;
 }
 
+
+/**
+ * 
+ * @param {MouseEvent} e 
+ */
 const tableSelectListener = (e) => {
     const element = e.target.closest('.select-movie');
 
@@ -34,14 +39,19 @@ const tableSelectListener = (e) => {
 
 }
 
-const tableDeleteListener = async (e) => {
 
-    
+/**
+ * 
+ * @param {MouseEvent} e 
+ */
+const tableDeleteListener = async (e) => {
+ 
     const element = e.target.closest('.delete-movie');
 
     if(!element) return;
     
     const id = element.getAttribute('data-id');
+    
 
     try{
         await deleteMovieById(id);
@@ -49,8 +59,8 @@ const tableDeleteListener = async (e) => {
         document.querySelector('#current-page').innerHTML = moviesStore.getCurrentPage();
         renderTable();
     } catch(error) {
-        alert(error);
-    }
+        console.log(error);
+    };
 
 }
 
@@ -95,5 +105,4 @@ export const renderTable = (element) => {
     });
 
     table.querySelector('tbody').innerHTML = tableHTML;
-
 }

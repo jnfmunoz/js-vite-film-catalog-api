@@ -16,5 +16,4 @@ export const deleteMovieById = async ( id ) => {
     // const deleteResult = await res.json();
 
     return true;
-
 }

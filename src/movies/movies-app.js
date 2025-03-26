@@ -5,7 +5,10 @@ import { renderAddButton } from "./presentation/render-add-button/render-add-but
 import { renderModal } from "./presentation/render-modal/render-modal";
 import { saveMovie } from "./uses-cases/save-movie";
 
-
+/**
+ * 
+ * @param {HTMLDivElement} element 
+ */
 export const MoviesApp = async ( element ) => {
     
     element.innerHTML = 'Loading...';

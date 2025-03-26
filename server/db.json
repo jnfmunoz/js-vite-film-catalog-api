@@ -1,358 +1,399 @@
 {
   "movies": [
-    {
-      "id": "1",
-      "title": "Stereo",
-      "year": 1969,
-      "director": "David Cronenberg"
-    },
-    {
-      "id": "2",
-      "title": "Crimes of the Future",
-      "year": 1970,
-      "director": "David Cronenberg"
-    },
-    {
-      "id": "3",
-      "title": "Shivers",
-      "year": 1975,
-      "director": "David Cronenberg"
-    },
-    {
-      "id": "4",
-      "title": "Rabid",
-      "year": 1977,
-      "director": "David Cronenberg"
-    },
-    {
-      "id": "5",
-      "title": "Fast Company",
-      "year": 1979,
-      "director": "David Cronenberg"
-    },
-    {
-      "id": "6",
-      "title": "The Brood",
-      "year": 1979,
-      "director": "David Cronenberg"
-    },
-    {
-      "id": "7",
-      "title": "Scanners",
-      "year": 1981,
-      "director": "David Cronenberg"
-    },
-    {
-      "id": "8",
-      "title": "Videodrome",
-      "year": 1983,
-      "director": "David Cronenberg"
-    },
-    {
-      "id": "9",
-      "title": "The Dead Zone",
-      "year": 1983,
-      "director": "David Cronenberg"
-    },
-    {
-      "id": "10",
-      "title": "La mosca",
-      "year": 1986,
-      "director": "David Cronenberg"
-    },
-    {
-      "id": "11",
-      "title": "Inseparables",
-      "year": 1988,
-      "director": "David Cronenberg"
-    },
-    {
-      "id": "12",
-      "title": "El almuerzo desnudo",
-      "year": 1991,
-      "director": "David Cronenberg"
-    },
-    {
-      "id": "13",
-      "title": "M. Butterfly",
-      "year": 1993,
-      "director": "David Cronenberg"
-    },
-    {
-      "id": "14",
-      "title": "Crash",
-      "year": 1996,
-      "director": "David Cronenberg"
-    },
-    {
-      "id": "15",
-      "title": "eXistenZ",
-      "year": 1999,
-      "director": "David Cronenberg"
-    },
-    {
-      "id": "16",
-      "title": "Spider",
-      "year": 2002,
-      "director": "David Cronenberg"
-    },
-    {
-      "id": "17",
-      "title": "Una historia de violencia",
-      "year": 2005,
-      "director": "David Cronenberg"
-    },
-    {
-      "id": "18",
-      "title": "Promesas del Este",
-      "year": 2007,
-      "director": "David Cronenberg"
-    },
-    {
-      "id": "19",
-      "title": "Un método peligroso",
-      "year": 2011,
-      "director": "David Cronenberg"
-    },
-    {
-      "id": "20",
-      "title": "Cosmópolis",
-      "year": 2012,
-      "director": "David Cronenberg"
-    },
-    {
-      "id": "21",
-      "title": "Polvo de estrellas",
-      "year": 2014,
-      "director": "David Cronenberg"
-    },
-    {
-      "id": "22",
-      "title": "Crímenes del futuro",
-      "year": 2022,
-      "director": "David Cronenberg"
-    },
-    {
-      "id": "23",
-      "title": "The Shrouds",
-      "year": 2025,
-      "director": "David Cronenberg"
-    },
-    {
-      "id": "24",
-      "title": "Dark Star",
-      "year": 1974,
-      "director": "John Carpenter"
-    },
-    {
-      "id": "25",
-      "title": "Assault on Precinct 13",
-      "year": 1976,
-      "director": "John Carpenter"
-    },
-    {
-      "id": "26",
-      "title": "Halloween",
-      "year": 1978,
-      "director": "John Carpenter"
-    },
-    {
-      "id": "27",
-      "title": "Elvis",
-      "year": 1979,
-      "director": "John Carpenter"
-    },
-    {
-      "id": "28",
-      "title": "The Fog",
-      "year": 1980,
-      "director": "John Carpenter"
-    },
-    {
-      "id": "29",
-      "title": "Escape from New York",
-      "year": 1981,
-      "director": "John Carpenter"
-    },
-    {
-      "id": "30",
-      "title": "The Thing",
-      "year": 1982,
-      "director": "John Carpenter"
-    },
-    {
-      "id": "31",
-      "title": "Christine",
-      "year": 1983,
-      "director": "John Carpenter"
-    },
-    {
-      "id": "32",
-      "title": "Starman",
-      "year": 1984,
-      "director": "John Carpenter"
-    },
-    {
-      "id": "33",
-      "title": "Big Trouble in Little China",
-      "year": 1986,
-      "director": "John Carpenter"
-    },
-    {
-      "id": "34",
-      "title": "Prince of Darkness",
-      "year": 1987,
-      "director": "John Carpenter"
-    },
-    {
-      "id": "35",
-      "title": "They Live",
-      "year": 1988,
-      "director": "John Carpenter"
-    },
-    {
-      "id": "36",
-      "title": "Memoirs of an Invisible Man",
-      "year": 1992,
-      "director": "John Carpenter"
-    },
-    {
-      "id": "37",
-      "title": "Body Bags",
-      "year": 1993,
-      "director": "John Carpenter"
-    },
-    {
-      "id": "38",
-      "title": "In the Mouth of Madness",
-      "year": 1994,
-      "director": "John Carpenter"
-    },
-    {
-      "id": "39",
-      "title": "Village of the Damned",
-      "year": 1995,
-      "director": "John Carpenter"
-    },
-    {
-      "id": "40",
-      "title": "Escape from L.A.",
-      "year": 1996,
-      "director": "John Carpenter"
-    },
-    {
-      "id": "41",
-      "title": "Vampires",
-      "year": 1998,
-      "director": "John Carpenter"
-    },
-    {
-      "id": "42",
-      "title": "Ghosts of Mars",
-      "year": 2001,
-      "director": "John Carpenter"
-    },
-    {
-      "id": "43",
-      "title": "The Ward",
-      "year": 2010,
-      "director": "John Carpenter"
-    },
-    {
-      "id": "44",
-      "title": "Scream 4",
-      "year": 2011,
-      "director": "Wes Craven"
-    },
-    {
-      "id": "45",
-      "title": "My Soul to Take",
-      "year": 2010,
-      "director": "Wes Craven"
-    },
-    {
-      "id": "46",
-      "title": "Red Eye",
-      "year": 2005,
-      "director": "Wes Craven"
-    },
-    {
-      "id": "47",
-      "title": "Cursed",
-      "year": 2005,
-      "director": "Wes Craven"
-    },
-    {
-      "id": "48",
-      "title": "Scream 3",
-      "year": 2000,
-      "director": "Wes Craven"
-    },
-    {
-      "id": "49",
-      "title": "Music of the Heart",
-      "year": 1999,
-      "director": "Wes Craven"
-    },
-    {
-      "id": "51",
-      "title": "Scream",
-      "year": 1996,
-      "director": "Wes Craven"
-    },
-    {
-      "id": "52",
-      "title": "Vampire in Brooklyn",
-      "year": 1995,
-      "director": "Wes Craven"
-    },
-    {
-      "id": "53",
-      "title": "Wes Craven's New Nightmare",
-      "year": 1994,
-      "director": "Wes Craven"
-    },
-    {
-      "id": "54",
-      "title": "The People Under the Stairs",
-      "year": 1991,
-      "director": "Wes Craven"
-    },
-    {
-      "id": "55",
-      "title": "Night Visions",
-      "year": 1990,
-      "director": "Wes Craven"
-    },
-    {
-      "id": "56",
-      "title": "Shocker",
-      "year": 1989,
-      "director": "Wes Craven"
-    },
-    {
-      "id": "57",
-      "title": "The Serpent and the Rainbow",
-      "year": 1988,
-      "director": "Wes Craven"
-    },
-    {
-      "id": "58",
-      "title": "Deadly Friend",
-      "year": 1986,
-      "director": "Wes Craven"
-    },
-    {
-      "id": "59",
-      "title": "Chiller",
-      "year": 1985,
-      "director": "Wes Craven"
-    },
-    {
-      "id": "62",
-      "title": "Swamp Thing",
-      "year": 1982,
-      "director": "Wes Craven"
-    }
+      { 
+          "id": 1, 
+          "title": "Stereo", 
+          "year": 1969, 
+          "director": "David Cronenberg"
+      },
+      { 
+          "id": 2, 
+          "title": "Crimes of the Future", 
+          "year": 1970, 
+          "director": "David Cronenberg"
+      },
+      { 
+          "id": 3, 
+          "title": "Shivers", 
+          "year": 1975, 
+          "director": "David Cronenberg"
+      },
+      { 
+          "id": 4, 
+          "title": "Rabid", 
+          "year": 1977, 
+          "director": "David Cronenberg"
+      },
+      { 
+          "id": 5, 
+          "title": "Fast Company", 
+          "year": 1979, 
+          "director": "David Cronenberg"
+      },
+      { 
+          "id": 6, 
+          "title": "The Brood", 
+          "year": 1979, 
+          "director": "David Cronenberg"
+      },
+      { 
+          "id": 7, 
+          "title": "Scanners", 
+          "year": 1981, 
+          "director": "David Cronenberg"
+      },
+      { 
+          "id": 8, 
+          "title": "Videodrome", 
+          "year": 1983, 
+          "director": "David Cronenberg"
+      },
+      { 
+          "id": 9, 
+          "title": "The Dead Zone", 
+          "year": 1983, 
+          "director": "David Cronenberg"
+      },
+      { 
+          "id": 10,
+          "title": "La mosca", 
+          "year": 1986, 
+          "director": "David Cronenberg"
+      },
+      { 
+          "id": 11,
+          "title": "Inseparables", 
+          "year": 1988, 
+          "director": "David Cronenberg"
+      },
+      { 
+          "id": 12,
+          "title": "El almuerzo desnudo", 
+          "year": 1991, 
+          "director": "David Cronenberg"
+      },
+      { 
+          "id": 13,
+          "title": "M. Butterfly", 
+          "year": 1993, 
+          "director": "David Cronenberg"
+      },
+      { 
+          "id": 14,
+          "title": "Crash", 
+          "year": 1996, 
+          "director": "David Cronenberg"
+      },
+      { 
+          "id": 15,
+          "title": "eXistenZ", 
+          "year": 1999, 
+          "director": "David Cronenberg"
+      },
+      { 
+          "id": 16,
+          "title": "Spider", 
+          "year": 2002, 
+          "director": "David Cronenberg"
+      },
+      { 
+          "id": 17,
+          "title": "Una historia de violencia", 
+          "year": 2005, 
+          "director": "David Cronenberg"
+      },
+      { 
+          "id": 18,
+          "title": "Promesas del Este", 
+          "year": 2007, 
+          "director": "David Cronenberg"
+      },
+      { 
+          "id": 19,
+          "title": "Un método peligroso", 
+          "year": 2011, 
+          "director": "David Cronenberg"
+      },
+      { 
+          "id": 20,
+          "title": "Cosmópolis", 
+          "year": 2012, 
+          "director": "David Cronenberg"
+      },
+      { 
+          "id": 21,
+          "title": "Polvo de estrellas", 
+          "year": 2014, 
+          "director": "David Cronenberg"
+      },
+      { 
+          "id": 22,
+          "title": "Crímenes del futuro", 
+          "year": 2022, 
+          "director": "David Cronenberg"
+      },
+      { 
+          "id": 23,
+          "title": "The Shrouds", 
+          "year": 2025, 
+          "director": "David Cronenberg"
+      },
+      { 
+          "id": 24,
+          "title": "Dark Star", 
+          "year": 1974, 
+          "director": "John Carpenter" 
+      },
+      { 
+          "id": 25,
+          "title": "Assault on Precinct 13", 
+          "year": 1976, 
+          "director": "John Carpenter" 
+      },
+      { 
+          "id": 26,
+          "title": "Halloween", 
+          "year": 1978, 
+          "director": "John Carpenter" 
+      },
+      { 
+          "id": 27,
+          "title": "Elvis", 
+          "year": 1979, 
+          "director": "John Carpenter" 
+      },
+      { 
+          "id": 28,
+          "title": "The Fog", 
+          "year": 1980, 
+          "director": "John Carpenter" 
+      },
+      { 
+          "id": 29,
+          "title": "Escape from New York", 
+          "year": 1981, 
+          "director": "John Carpenter" 
+      },
+      { 
+          "id": 30,
+          "title": "The Thing", 
+          "year": 1982, 
+          "director": "John Carpenter" 
+      },
+      { 
+          "id": 31,
+          "title": "Christine", 
+          "year": 1983, 
+          "director": "John Carpenter" 
+      },
+      { 
+          "id": 32,
+          "title": "Starman", 
+          "year": 1984, 
+          "director": "John Carpenter" 
+      },
+      { 
+          "id": 33,
+          "title": "Big Trouble in Little China", 
+          "year": 1986, 
+          "director": "John Carpenter" 
+      },
+      { 
+          "id": 34,
+          "title": "Prince of Darkness", 
+          "year": 1987, 
+          "director": "John Carpenter" 
+      },
+      { 
+          "id": 35,
+          "title": "They Live", 
+          "year": 1988, 
+          "director": "John Carpenter" 
+      },
+      { 
+          "id": 36,
+          "title": "Memoirs of an Invisible Man", 
+          "year": 1992, 
+          "director": "John Carpenter" 
+      },
+      { 
+          "id": 37,
+          "title": "Body Bags", 
+          "year": 1993, 
+          "director": "John Carpenter" 
+      },
+      { 
+          "id": 38,
+          "title": "In the Mouth of Madness", 
+          "year": 1994, 
+          "director": "John Carpenter" 
+      },
+      { 
+          "id": 39,
+          "title": "Village of the Damned", 
+          "year": 1995, 
+          "director": "John Carpenter" 
+      },
+      { 
+          "id": 40,
+          "title": "Escape from L.A.", 
+          "year": 1996, 
+          "director": "John Carpenter" 
+      },
+      { 
+          "id": 41,
+          "title": "Vampires", 
+          "year": 1998, 
+          "director": "John Carpenter" 
+      },
+      { 
+          "id": 42,
+          "title": "Ghosts of Mars", 
+          "year": 2001, 
+          "director": "John Carpenter" 
+      },
+      { 
+          "id": 43,
+          "title": "The Ward", 
+          "year": 2010, 
+          "director": "John Carpenter" 
+      },
+      { 
+          "id": 44,
+          "title": "Scream 4", 
+          "year": 2011, 
+          "director": "Wes Craven" 
+      },
+      { 
+          "id": 45,
+          "title": "My Soul to Take", 
+          "year": 2010, 
+          "director": "Wes Craven" 
+      },
+      { 
+          "id": 46,
+          "title": "Red Eye", 
+          "year": 2005, 
+          "director": "Wes Craven" 
+      },
+      { 
+          "id": 47,
+          "title": "Cursed", 
+          "year": 2005, 
+          "director": "Wes Craven" 
+      },
+      { 
+          "id": 48,
+          "title": "Scream 3", 
+          "year": 2000, 
+          "director": "Wes Craven" 
+      },
+      { 
+          "id": 49,
+          "title": "Music of the Heart", 
+          "year": 1999, 
+          "director": "Wes Craven" 
+          },
+      { 
+          "id": 50,
+          "title": "Scream 2", 
+          "year": 1997, 
+          "director": "Wes Craven" 
+          },
+      { 
+          "id": 51,
+          "title": "Scream", 
+          "year": 1996, 
+          "director": "Wes Craven" 
+      },
+      { 
+          "id": 52,
+          "title": "Vampire in Brooklyn", 
+          "year": 1995, 
+          "director": "Wes Craven" 
+      },
+      { 
+          "id": 53,
+          "title": "Wes Craven's New Nightmare", 
+          "year": 1994, 
+          "director": "Wes Craven" 
+      },
+      { 
+          "id": 54,
+          "title": "The People Under the Stairs", 
+          "year": 1991, 
+          "director": "Wes Craven" 
+      },
+      { 
+          "id": 55,
+          "title": "Night Visions", 
+          "year": 1990, 
+          "director": "Wes Craven" 
+      },
+      { 
+          "id": 56,
+          "title": "Shocker", 
+          "year": 1989, 
+          "director": "Wes Craven" 
+          },
+      { 
+          "id": 57,
+          "title": "The Serpent and the Rainbow", 
+          "year": 1988, 
+          "director": "Wes Craven" 
+          },
+      { 
+          "id": 58,
+          "title": "Deadly Friend", 
+          "year": 1986, 
+          "director": "Wes Craven" 
+          },
+      { 
+          "id": 59,
+          "title": "Chiller", 
+          "year": 1985, 
+          "director": "Wes Craven" },
+      { 
+          "id": 60,
+          "title": "A Nightmare on Elm Street", 
+          "year": 1984, 
+          "director": "Wes Craven" 
+      },
+      { 
+          "id": 61,
+          "title": "Invitation to Hell", 
+          "year": 1984, 
+          "director": "Wes Craven" 
+      },
+      { 
+          "id": 62,
+          "title": "Swamp Thing", 
+          "year": 1982, 
+          "director": "Wes Craven" 
+      },
+      { 
+          "id": 63,
+          "title": "Deadly Blessing", 
+          "year": 1981, 
+          "director": "Wes Craven" 
+      },
+      { 
+          "id": 64,
+          "title": "Summer of Fear", 
+          "year": 1978, 
+          "director": "Wes Craven" 
+      },
+      { 
+          "id": 65,
+          "title": "The Hills Have Eyes", 
+          "year": 1977, 
+          "director": "Wes Craven" 
+      },
+      { 
+          "id": 66,
+          "title": "The Last House on the Left", 
+          "year": 1972, 
+          "director": "Wes Craven" 
+      }
   ]
 }

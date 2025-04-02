@@ -28,10 +28,8 @@ Film Catalog API es una aplicación CRUD creada con Vite.js, que consume una API
 
 ## Características
 - **CRUD completo:** Permite Crear, Leer, Actualizar y Eliminar películas.
-- **API REST con JSON Server:** Los datos de las películas se almacenan en un archivo JSON simulado como backend.
-- **Interfaz ligera con Vite.js:** Aplicación optimizada con un entorno de desarrollo rápido.
-- **Mensajes de confirmación con SweetAlert2:** Se utilizan alertas visuales para confirmar acciones del usuario.
-- **Validaciones en el formulario:** Se realizan validaciones básicas antes de agregar o actualizar películas.
+- **Mensajes de confirmación con SweetAlert2:** Alertas visuales para acciones del usuario (agregar, actualizar, eliminar).
+- **Validaciones en el formulario:** Validación básica para garantizar la correcta entrada de datos.
 
 ## Instalación
 1. Clona este repositorio:
